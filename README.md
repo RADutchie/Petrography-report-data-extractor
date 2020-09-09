@@ -26,6 +26,7 @@ This project is a work in progress and I will continue to add different scripts 
 
 ## Example Mason Petrographics sample page
 
-![Mason Petrographics example sample page]([https://github.com/RADutchie/Petrography-report-data-extractor/static/Mason_eg.jpg])
+![Mason Petrographics example sample page](https://github.com/RADutchie/Petrography-report-data-extractor/blob/master/static/Mason_eg.jpg)
+
 
 
