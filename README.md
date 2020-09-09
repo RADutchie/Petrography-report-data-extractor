@@ -11,7 +11,7 @@ The scripts in these notebooks currently work on Mason Petrographics reports. Be
 
 There are currently 2 notebooks in this repo. The Mason_mineralogy_extract.ipynb notebook uses a combination of computer vision (using OpenCV library) to detect bounding boxes and TesseractOCR engine to OCR the document and extract the volumetric mineralogy provided in tabular form in the Mason reports (see figure below for an example of the page layout). Tee script then converts these descriptions to the Geological Survey of SOuth Australia mineral and abundance codes for loading into the SA Geodata database.
 
-THe second notebook (Mason_mineralogy_extract.ipynb) uses the TesseractOCR engine and regex to extract the petrographic descriptions, sample by sample, for loading into SA Geodata. 
+The second notebook (Mason_mineralogy_extract.ipynb) uses the TesseractOCR engine and regex to extract the petrographic descriptions, sample by sample, for loading into SA Geodata. 
 
 The lithology_mapper.ipynb notebook is a work in progress. THe aim is to extract long form lithological names/descriptions and convert these into the most likely rock name and convert to GSSA lithology codes to add a lithology name to each sample in the database.
 
