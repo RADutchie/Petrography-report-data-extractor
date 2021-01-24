@@ -9,7 +9,7 @@ Lithological and mineralogical information about rock samples is a key data type
 
 The scripts in these notebooks currently work on Mason Petrographics reports. Because of the lack of standardisation in reporting, it is a challenge to make a universal approach to extracting the required data.
 
-There are currently 2 notebooks in this repo. The Mason_mineralogy_extract.ipynb notebook uses a combination of computer vision (using OpenCV library) to detect bounding boxes and TesseractOCR engine to OCR the document and extract the volumetric mineralogy provided in tabular form in the Mason reports (see figure below for an example of the page layout). Tee script then converts these descriptions to the Geological Survey of SOuth Australia mineral and abundance codes for loading into the SA Geodata database.
+There are currently 2 notebooks in this repo. The Mason_mineralogy_extract.ipynb notebook uses a combination of computer vision (using OpenCV library) to detect bounding boxes and TesseractOCR engine to OCR the document and extract the volumetric mineralogy provided in tabular form in the Mason reports (see figure below for an example of the page layout). The script then converts these descriptions to the Geological Survey of South Australia mineral and abundance codes for loading into the SA Geodata database.
 
 The second notebook (Mason_mineralogy_extract.ipynb) uses the TesseractOCR engine and regex to extract the petrographic descriptions, sample by sample, for loading into SA Geodata. 
 
