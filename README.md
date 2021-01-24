@@ -13,9 +13,9 @@ There are currently 2 notebooks in this repo. The Mason_mineralogy_extract.ipynb
 
 The second notebook (Mason_mineralogy_extract.ipynb) uses the TesseractOCR engine and regex to extract the petrographic descriptions, sample by sample, for loading into SA Geodata. 
 
-The lithology_mapper.ipynb notebook is a work in progress. THe aim is to extract long form lithological names/descriptions and convert these into the most likely rock name and convert to GSSA lithology codes to add a lithology name to each sample in the database.
+The lithology_mapper.ipynb notebook is a work in progress. The aim is to extract long form lithological names/descriptions and convert these into the most likely rock name and convert to GSSA lithology codes to add a lithology name to each sample in the database.
 
-This project is a work in progress and I will continue to add different scripts to extract data from different styles of petrographic reports as I develop them. These scripts are also quite manual (providing hard links to input directories), and I will work to automate the process more 
+This project is a work in progress and I will continue to add different scripts to extract data from different styles of petrographic reports as I develop them. These scripts are also quite manual (providing hard links to input directories), and I will work to automate the process more. 
 
 ## How to run locally
 
